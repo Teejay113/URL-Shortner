@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://i.icomoon.io/public/temp/a5a88e8e5e/UntitledProject/style-svg.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      defer
+      src="https://i.icomoon.io/public/temp/a5a88e8e5e/UntitledProject/svgxuse.js"
+    ></script>
+
+    <script async src="script.js"></script>
+
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav thin-bold">
+          <div class="logo_wrapper">
+            <svg class="nav_logo logo">
+              <use xlink:href="images/logo.svg#logo"></use>
+            </svg>
+          </div>
+
+          <ul class="nav_lists tny-text">
+            <li class="nav_list">
+              <a href="" class="nav_link">Features</a>
+            </li>
+            <li class="nav_list"><a href="" class="nav_link">Pricing </a></li>
+            <li class="nav_list">
+              <a href="" class="nav_link"> Resources</a>
+            </li>
+          </ul>
+
+          <div class="nav_cta tny-text">
+            <a href="" class="login">Login</a>
+            <a href="" class="sign-up btn btn-round">Sign up</a>
+          </div>
+        </nav>
+
+        <div class="hero">
+          <div class="hero_typo">
+            <h1 class="hero_hdr-text">More than just shorter links</h1>
+            <p class="hero_desc-text md-text">
+              Build your brand's recognitionand get detailed insights on how
+              your links are performing
+            </p>
+            <a href="" class="hero_cta sm-text btn btn-round btn-bg"
+              >Get Started</a
+            >
+          </div>
+
+          <div class="hero_img-wrapper">
+            <svg class="hero_img">
+              <use
+                xlink:href="images/illustration-working.svg#illustration-working"
+              ></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main">
+      <section class="shortner_section">
+        <div class="container">
+          <form class="shortner_section_form">
+            <input
+              type="url"
+              placeholder="Shorten a link here..."
+              class="shortner_input-field md-text"
+            />
+            <a href="" class="shortner_btn md-text btn">Shorten it!</a>
+            <p class="shortner_prompt tny-text">Please add a link</p>
+          </form>
+
+          <ul class="shortner_lists md-text">
+            <li class="shortner_list">
+              <p class="shortner_user_input">https://www.frontendmentor.io</p>
+              <p class="shortner_reponse">https/relink/44905/kyk</p>
+              <a href="" class="shortner_copy btn tny-text">Copy!</a>
+            </li>
+
+            <li class="shortner_list">
+              <p class="shortner_user_input">https://www.frontendmentor.io</p>
+              <p class="shortner_reponse">https/relink/44905/kyk</p>
+              <a href="" class="shortner_copy btn tny-text">Copy!</a>
+            </li>
+
+            <li class="shortner_list">
+              <p class="shortner_user_input">https://www.frontendmentor.io</p>
+              <p class="shortner_reponse">https/relink/44905/kyk</p>
+              <a href="" class="shortner_copy btn tny-text">Copy!</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="stats">
+        <div class="container">
+          <h1 class="stats_header bg-text">Advanced Statistics</h1>
+
+          <p class="stats_desc sm-text">
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+
+          <div class="stats_figures">
+            <figure class="stats_figure">
+              <div class="stats_figure_icon">
+                <svg>
+                  <use
+                    xlink:href="images/icon-brand-recognition.svg#brand-recognition"
+                  ></use>
+                </svg>
+              </div>
+
+              <p class="stats_figure_header sm-text">Brand Recognition</p>
+
+              <p class="stats_figure_text tny-text">
+                Boost your brand recognition with each click. Generic links
+                don’t mean a thing. Branded links help instil confidence in your
+                content.
+              </p>
+            </figure>
+
+            <figure class="stats_figure">
+              <div class="stats_figure_icon">
+                <svg>
+                  <use
+                    xlink:href="images/icon-detailed-records.svg#detailed-records"
+                  ></use>
+                </svg>
+              </div>
+
+              <p class="stats_figure_header sm-text">Detailed Records</p>
+
+              <p class="stats_figure_text tny-text">
+                Gain insights into who is clicking your links. Knowing when and
+                where people engage with your content helps inform better
+                decisions.
+              </p>
+            </figure>
+
+            <figure class="stats_figure">
+              <div class="stats_figure_icon">
+                <svg>
+                  <use
+                    xlink:href="images/icon-fully-customizable.svg#fully-customizable"
+                  ></use>
+                </svg>
+              </div>
+
+              <p class="stats_figure_header sm-text">Fully Customizable</p>
+
+              <p class="stats_figure_text tny-text">
+                Improve brand awareness and content discoverability through
+                customizable links, supercharging audience engagement. Boost
+                your
+              </p>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="container">
+          <p class="cta_header bg-text">Boost your links today</p>
+          <a href="" class="cta_btn btn btn-bg btn-round sm-text"
+            >Get Started</a
+          >
+        </div>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="logo_wrapper">
+          <svg class="footer_logo logo">
+            <use xlink:href="images/logo.svg#logo"></use>
+          </svg>
+        </div>
+
+        <ul class="footer_lists tny-text">
+          <li class="footer_list_header">Features</li>
+          <li class="footer_list">
+            <a href="" class="footer_link">Link Shortening</a>
+          </li>
+          <li class="footer_list">
+            <a href="" class="footer_link">Branded Links</a>
+          </li>
+          <li class="footer_list">
+            <a href="" class="footer_link">Analytics</a>
+          </li>
+        </ul>
+
+        <ul class="footer_lists tny-text">
+          <li class="footer_list_header">Features</li>
+          <li class="footer_list">
+            <a href="" class="footer_link">Link Shortening</a>
+          </li>
+          <li class="footer_list">
+            <a href="" class="footer_link">Branded Links</a>
+          </li>
+          <li class="footer_list">
+            <a href="" class="footer_link">Analytics</a>
+          </li>
+        </ul>
+
+        <ul class="footer_lists tny-text">
+          <li class="footer_list_header">Features</li>
+          <li class="footer_list">
+            <a href="" class="footer_link">Link Shortening</a>
+          </li>
+          <li class="footer_list">
+            <a href="" class="footer_link">Branded Links</a>
+          </li>
+          <li class="footer_list">
+            <a href="" class="footer_link">Analytics</a>
+          </li>
+        </ul>
+
+        <div class="social_icons">
+          <a href="" class="social_icon_links">
+            <svg class="icon icon-facebook2">
+              <use xlink:href="#icon-facebook2"></use>
+            </svg>
+          </a>
+
+          <a href="" class="social_icon_links">
+            <svg class="icon icon-x">
+              <use xlink:href="#icon-x"></use>
+            </svg>
+          </a>
+
+          <a href="" class="social_icon_links">
+            <svg class="icon icon-pinterest">
+              <use xlink:href="#icon-pinterest"></use>
+            </svg>
+          </a>
+
+          <a href="" class="social_icon_links">
+            <svg class="icon icon-instagram">
+              <use xlink:href="#icon-instagram"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- 
+      
+     
+     
+    links today Get Started FeatuLink Shorteningres  Branded Links Analytics
+    Resources Blog Developers Support Company About Our Team Careers Contact -->
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
